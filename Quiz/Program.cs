@@ -37,7 +37,7 @@ while (q3 != "a" && q3 != "b" && q3 != "c")
     q3 = Console.ReadLine().ToLower();
 }
 
-if (q3 == "")
+if (q3 == "a")
 {
     Console.WriteLine("Correct!");
     score += 10;
